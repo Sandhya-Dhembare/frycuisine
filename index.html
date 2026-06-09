@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FryCuisine – Premium Food Blog</title>
+    <meta name="description" content="Explore trending global & healthy food at FryCuisine. From viral food trends to world-famous dishes and easy recipes." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header id="mainHeader">
+        <div class="header-inner">
+            <div class="logo">
+                <a href="#">FryCuisine</a>
+            </div>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Trending Food</a></li>
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">World Cuisine</a></li>
+                    <li><a href="#">Street Food</a></li>
+                    <li><a href="#">Diet &amp; Healthy</a></li>
+                    <li><a href="#">Food Blog</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button id="searchToggle" aria-label="Toggle search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+                <button id="mobileMenuToggle" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <div id="searchBar" class="search-bar">
+            <input type="text" placeholder="Search recipes, cuisines, diets…" />
+            <button type="button"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></button>
+        </div>
+    </header>
+
+    <!-- ===== HERO SLIDER ===== -->
+    <section id="heroSlider">
+        <div class="slider-container">
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=1920&auto=format&fit=crop');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1>Explore Trending, Global &amp; Healthy Food at FryCuisine</h1>
+                    <p>From viral food trends and world-famous dishes to healthy diets and easy recipes — everything about food in one place.</p>
+                    <div class="slide-buttons">
+                        <a href="#" class="btn btn-primary">World Cuisine</a>
+                        <a href="#" class="btn btn-secondary">Diet Food</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1920&auto=format&fit=crop');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1>Discover Trending Recipes Worldwide</h1>
+                    <p>Latest recipes from every corner of the world.</p>
+                    <div class="slide-buttons">
+                        <a href="#" class="btn btn-primary">Explore Recipes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1920&auto=format&fit=crop');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1>Healthy Eating Made Delicious</h1>
+                    <p>Easy healthy meals for every lifestyle.</p>
+                    <div class="slide-buttons">
+                        <a href="#" class="btn btn-primary">View Guides</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="slider-arrow prev" aria-label="Previous slide">‹</button>
+        <button class="slider-arrow next" aria-label="Next slide">›</button>
+        <div class="slider-dots"></div>
+    </section>
+
+    <!-- ===== TRENDING FOOD ===== -->
+    <section id="trending" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Trending Food Right Now</h2>
+            <div class="trending-grid">
+                <article class="trending-card">
+                    <div class="card-image">
+                        <img src="/H2.jpg" alt="Korean Corn Dogs" loading="lazy" />
+                    </div>
+                    <div class="card-content">
+                        <span class="card-meta">January 1, 2026 &middot; Trending</span>
+                        <h3>Korean Corn Dogs</h3>
+                        <p>Crispy outside, cheesy inside! Golden fried corn dogs with gooey cheese and bold flavors.</p>
+                        <a href="#" class="read-more">Read More…</a>
+                    </div>
+                </article>
+                <article class="trending-card">
+                    <div class="card-image">
+                        <img src="/H36.png" alt="Dubai Chocolate Bar" loading="lazy" />
+                    </div>
+                    <div class="card-content">
+                        <span class="card-meta">January 1, 2026 &middot; Trending</span>
+                        <h3>Dubai Chocolate Bar</h3>
+                        <p>Luxury in every bite. Rich chocolate layered with premium fillings inspired by Dubai desserts.</p>
+                        <a href="#" class="read-more">Read More…</a>
+                    </div>
+                </article>
+                <article class="trending-card">
+                    <div class="card-image">
+                        <img src="/H31.png" alt="Viral Street Momo" loading="lazy" />
+                    </div>
+                    <div class="card-content">
+                        <span class="card-meta">January 2, 2026 &middot; Trending</span>
+                        <h3>Viral Street Momo</h3>
+                        <p>The internet's favorite street snack. Juicy Momo tossed in spicy sauces, full of desi street-style flavor.</p>
+                        <a href="#" class="read-more">Read More…</a>
+                    </div>
+                </article>
+                <article class="trending-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=600&auto=format&fit=crop" alt="Japanese Souffle Pancakes" loading="lazy" />
+                    </div>
+                    <div class="card-content">
+                        <span class="card-meta">January 2, 2026 &middot; Trending</span>
+                        <h3>Japanese Soufflé Pancakes</h3>
+                        <p>Soft, fluffy &amp; cloud-like. Light-as-air pancakes that melt in your mouth with every bite.</p>
+                        <a href="#" class="read-more">Read More…</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== WORLD CUISINE ===== -->
+    <section id="worldCuisine" class="section-padding bg-cream">
+        <div class="container">
+            <h2 class="section-title">World Famous Food by Country</h2>
+            <div class="cuisine-grid">
+                <div class="cuisine-card">
+                    <div class="cuisine-image">
+                        <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=600&auto=format&fit=crop" alt="Indian Food" loading="lazy" />
+                    </div>
+                    <div class="cuisine-content">
+                        <span class="cuisine-flag">🇮🇳</span>
+                        <h3>India</h3>
+                        <p>Butter Chicken, Dosa</p>
+                        <a href="#" class="btn btn-outline">Read More</a>
+                    </div>
+                </div>
+                <div class="cuisine-card">
+                    <div class="cuisine-image">
+                        <img src="/H27.png" alt="Korean Food" loading="lazy" />
+                    </div>
+                    <div class="cuisine-content">
+                        <span class="cuisine-flag">🇰🇷</span>
+                        <h3>Korea</h3>
+                        <p>Kimchi, Bibimbap</p>
+                        <a href="#" class="btn btn-outline">Read More</a>
+                    </div>
+                </div>
+                <div class="cuisine-card">
+                    <div class="cuisine-image">
+                        <img src="/H8.jpg" alt="Italian Food" loading="lazy" />
+                    </div>
+                    <div class="cuisine-content">
+                        <span class="cuisine-flag">🇮🇹</span>
+                        <h3>Italy</h3>
+                        <p>Pizza &amp; Pasta</p>
+                        <a href="#" class="btn btn-outline">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== RECIPES SECTION ===== -->
+    <section id="recipes" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Recipes Section</h2>
+            <div class="recipes-grid">
+                <article class="recipe-card alt">
+                    <div class="recipe-image">
+                        <img src="H9.png" alt="Masala Frankie Roll" loading="lazy" />
+                    </div>
+                    <div class="recipe-content">
+                        <span class="recipe-meta">January 10, 2026 &middot; Trending</span>
+                        <h3>Masala Frankie Roll</h3>
+                        <p>Spicy vegetable stuffing wrapped in soft roti with tangy sauces. A quick and filling street-style meal.</p>
+                        <a href="#" class="read-more">Continue Reading</a>
+                    </div>
+                </article>
+                <article class="recipe-card">
+                    <div class="recipe-image">
+                        <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80&w=600&auto=format&fit=crop" alt="Fruit Yogurt Bowl" loading="lazy" />
+                    </div>
+                    <div class="recipe-content">
+                        <span class="recipe-meta">January 10, 2026 &middot; Trending</span>
+                        <h3>Fruit Yogurt Bowl</h3>
+                        <p>Fresh seasonal fruits blended with creamy low-fat yogurt. Rich in vitamins, protein, and natural sweetness.</p>
+                        <a href="#" class="read-more">Continue Reading</a>
+                    </div>
+                </article>
+                <article class="recipe-card alt">
+                    <div class="recipe-image">
+                        <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=600&auto=format&fit=crop" alt="Air Fryer Paneer Tikka" loading="lazy" />
+                    </div>
+                    <div class="recipe-content">
+                        <span class="recipe-meta">January 10, 2026 &middot; Trending</span>
+                        <h3>Air Fryer Paneer Tikka</h3>
+                        <p>Marinated paneer grilled to smoky perfection in air fryer. Healthy, delicious, and ready in minutes.</p>
+                        <a href="#" class="read-more">Continue Reading</a>
+                    </div>
+                </article>
+                <article class="recipe-card">
+                    <div class="recipe-image">
+                        <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=600&auto=format&fit=crop" alt="Dal Tadka & Rice" loading="lazy" />
+                    </div>
+                    <div class="recipe-content">
+                        <span class="recipe-meta">January 10, 2026 &middot; Trending</span>
+                        <h3>Dal Tadka &amp; Rice</h3>
+                        <p>Slow-cooked yellow dal tempered with aromatic Indian spices. Served with steamed rice for a comforting meal.</p>
+                        <a href="#" class="read-more">Continue Reading</a>
+                    </div>
+                </article>
+            </div>
+            <div class="center-btn">
+                <a href="#" class="btn btn-primary">View More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== HEALTHY FOOD GUIDES ===== -->
+    <section id="healthyGuides" class="section-padding bg-dark">
+        <div class="container">
+            <h2 class="section-title text-white">Diet &amp; Healthy Food Guides</h2>
+            <div class="guides-grid">
+                <div class="guide-card" style="background-image: url('https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=800&auto=format&fit=crop');">
+                    <div class="guide-overlay"></div>
+                    <div class="guide-content">
+                        <h3>Weight Loss Diet Foods</h3>
+                        <p>Fresh vegetables with quinoa and light dressings. Perfect for daily weight management.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="guide-card" style="background-image: url('https://images.unsplash.com/photo-1547592180-85f173990554?q=80&w=800&auto=format&fit=crop');">
+                    <div class="guide-overlay"></div>
+                    <div class="guide-content">
+                        <h3>High Protein Diet Foods</h3>
+                        <p>High-protein meals with eggs, tofu, legumes, and lean meats for balanced nutrition.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="guide-card" style="background-image: url('/H15.png');">
+                    <div class="guide-overlay"></div>
+                    <div class="guide-content">
+                        <h3>Keto Food List</h3>
+                        <p>Low-carb, high-fat meals for keto dieters. Includes keto-friendly recipes and tips.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPLORE BY CATEGORY ===== -->
+    <section id="categories" class="section-padding bg-cream">
+        <div class="container">
+            <h2 class="section-title">Explore Food by Category</h2>
+            <div class="categories-grid">
+                <a href="#" class="category-item">
+                    <div class="category-circle"><img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=300&auto=format&fit=crop" alt="Street Food" loading="lazy" /></div>
+                    <span>Street Food</span>
+                </a>
+                <a href="#" class="category-item">
+                    <div class="category-circle"><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=300&auto=format&fit=crop" alt="Fast Food" loading="lazy" /></div>
+                    <span>Fast Food</span>
+                </a>
+                <a href="#" class="category-item">
+                    <div class="category-circle"><img src="/H25.png" alt="Vegan Food" loading="lazy" /></div>
+                    <span>Vegan Food</span>
+                </a>
+                <a href="#" class="category-item">
+                    <div class="category-circle"><img src="/H28.png" alt="Fried Food" loading="lazy" /></div>
+                    <span>Fried Food</span>
+                </a>
+                <a href="#" class="category-item">
+                    <div class="category-circle"><img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?q=80&w=300&auto=format&fit=crop" alt="Desserts" loading="lazy" /></div>
+                    <span>Desserts</span>
+                </a>
+                <a href="#" class="category-item">
+                    <div class="category-circle"><img src="https://images.unsplash.com/photo-1605478371310-a9f1e96b4ff4?q=80&w=300&auto=format&fit=crop" alt="Snacks" loading="lazy" /></div>
+                    <span>Snacks</span>
+                </a>
+                <a href="#" class="category-item">
+                    <div class="category-circle"><img src="/H18.png" alt="Breakfast" loading="lazy" /></div>
+                    <span>Breakfast</span>
+                </a>
+                <a href="#" class="category-item">
+                    <div class="category-circle"><img src="/H6.png" alt="Dinner" loading="lazy" /></div>
+                    <span>Dinner</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LATEST FROM FRYCUISINE ===== -->
+    <section id="latest" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Latest from FryCuisine</h2>
+            <div class="masonry-grid">
+                <div class="masonry-item"><img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?q=80&w=400&auto=format&fit=crop" loading="lazy" /><div class="masonry-overlay"><span>Fast Food</span><h4>Cheese Burger</h4><p>Juicy beef patty with melted cheese.</p></div></div>
+                <div class="masonry-item"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=400&auto=format&fit=crop" loading="lazy" /><div class="masonry-overlay"><span>Healthy</span><h4>Avocado Salad</h4><p>Fresh greens with creamy avocado.</p></div></div>
+                <div class="masonry-item"><img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=400&auto=format&fit=crop" loading="lazy" /><div class="masonry-overlay"><span>Desserts</span><h4>Chocolate Lava Cake</h4><p>Warm molten chocolate center.</p></div></div>
+                <div class="masonry-item"><img src="/H27.png" loading="lazy" /><div class="masonry-overlay"><span>Italian</span><h4>Creamy Pasta Alfredo</h4><p>Rich &amp; creamy fettuccine alfredo.</p></div></div>
+                <div class="masonry-item"><img src="/H28.png" loading="lazy" /><div class="masonry-overlay"><span>Street Food</span><h4>Spicy Samosa Chaat</h4><p>Crispy samosa with chutneys.</p></div></div>
+                <div class="masonry-item"><img src="https://images.unsplash.com/photo-1555126634-323283e090fa?q=80&w=400&auto=format&fit=crop" loading="lazy" /><div class="masonry-overlay"><span>Asian</span><h4>Spicy Chicken Ramen</h4><p>Rich broth with noodles &amp; egg.</p></div></div>
+                <div class="masonry-item"><img src="/H31.png" loading="lazy" /><div class="masonry-overlay"><span>Street Food</span><h4>Veg Momos</h4><p>Steamed dumplings with spicy sauce.</p></div></div>
+                <div class="masonry-item"><img src="https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf?q=80&w=400&auto=format&fit=crop" loading="lazy" /><div class="masonry-overlay"><span>Healthy</span><h4>Sprouts Salad Bowl</h4><p>Fresh sprouts with colorful veggies.</p></div></div>
+                <div class="masonry-item"><img src="/H34.png" loading="lazy" /><div class="masonry-overlay"><span>Italian</span><h4>Mushroom Pasta</h4><p>Creamy mushroom penne pasta.</p></div></div>
+                <div class="masonry-item"><img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=400&auto=format&fit=crop" loading="lazy" /><div class="masonry-overlay"><span>Healthy</span><h4>Veg Sandwich</h4><p>Loaded with fresh vegetables.</p></div></div>
+                <div class="masonry-item"><img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=400&auto=format&fit=crop" loading="lazy" /><div class="masonry-overlay"><span>Desserts</span><h4>Dark Chocolate Brownie</h4><p>Rich &amp; fudgy brownie chunks.</p></div></div>
+                <div class="masonry-item"><img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=400&auto=format&fit=crop" loading="lazy" /><div class="masonry-overlay"><span>Indian</span><h4>Hyderabadi Biryani</h4><p>Fragrant rice with spiced meat.</p></div></div>
+                <div class="masonry-item"><img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=400&auto=format&fit=crop" loading="lazy" /><div class="masonry-overlay"><span>Indian</span><h4>Paneer Butter Masala</h4><p>Rich &amp; creamy paneer curry.</p></div></div>
+                <div class="masonry-item"><img src="/H7.png" loading="lazy" /><div class="masonry-overlay"><span>Breakfast</span><h4>Breakfast Quesadilla</h4><p>Eggs &amp; cheese in crispy tortilla.</p></div></div>
+                <div class="masonry-item"><img src="/H21.png" loading="lazy" /><div class="masonry-overlay"><span>Street Food</span><h4>Spring Rolls</h4><p>Crispy rolls with dipping sauce.</p></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== WHY CHOOSE FRYCUISINE ===== -->
+    <section id="whyChoose" class="section-padding bg-cream">
+        <div class="container split-layout">
+            <div class="split-image">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=800&auto=format&fit=crop" alt="Food spread" loading="lazy" />
+            </div>
+            <div class="split-content">
+                <h2>Why Food Lovers Choose FryCuisine</h2>
+                <p>FryCuisine brings you global food coverage in a simple and easy way. From easy recipes and real food guides to trending and viral food updates, everything is shared in a clean and honest style.</p>
+                <ul class="feature-list">
+                    <li><span class="check">✔</span> Global Recipes</li>
+                    <li><span class="check">✔</span> Healthy Guides</li>
+                    <li><span class="check">✔</span> Trending Food News</li>
+                    <li><span class="check">✔</span> Authentic Reviews</li>
+                    <li><span class="check">✔</span> Easy Cooking Tips</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== NEWSLETTER ===== -->
+    <section id="newsletter" style="background-image: url('https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=1920&auto=format&fit=crop');">
+        <div class="newsletter-overlay"></div>
+        <div class="container newsletter-content">
+            <h2>Join FryCuisine – Food Stories in Your Inbox</h2>
+            <p>Trending food updates &bull; Healthy diet tips &bull; World cuisine articles</p>
+            <form id="newsletterForm">
+                <input type="email" placeholder="Enter your email address" required />
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="#">Trending Food</a></li>
+                    <li><a href="#">World Cuisine</a></li>
+                    <li><a href="#">Diet Food</a></li>
+                    <li><a href="#">Recipes</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="#">Indian Food</a></li>
+                    <li><a href="#">Street Food</a></li>
+                    <li><a href="#">Healthy Food</a></li>
+                    <li><a href="#">Desserts</a></li>
+                    <li><a href="#">Snacks</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="YouTube"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+                    <a href="#" aria-label="Pinterest"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.65 0-5.789 2.737-5.789 5.563 0 1.102.424 2.286.953 2.92.105.126.12.235.089.358-.097.406-.316 1.288-.358 1.468-.057.243-.191.294-.44.177-1.644-.766-2.673-3.163-2.673-5.088 0-4.147 3.014-7.954 8.681-7.954 4.558 0 8.098 3.255 8.098 7.605 0 4.538-2.861 8.191-6.831 8.191-1.333 0-2.587-.693-3.017-1.511l-.82 3.125c-.295 1.138-1.098 2.563-1.634 3.43C7.625 23.673 9.743 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg></a>
+                    <a href="#" aria-label="Facebook"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+                    <a href="#" aria-label="Instagram"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 FryCuisine. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
