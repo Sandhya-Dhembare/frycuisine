@@ -13,7 +13,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="style.css">
-
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 
 </head>
 
@@ -48,80 +51,86 @@
 
 
 </header>
-<section class="hero">
+<!-- ==================================
+     HERO SLIDER
+=================================== -->
 
-    <div class="hero-slider">
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 
-        <!-- Slide 1 -->
+<section class="hero-section">
 
-        <div class="hero-slide active">
+    <div class="swiper heroSwiper">
 
-            <div class="hero-bg">
-                <img src="hero-bg.jpg" alt="">
-            </div>
+        <div class="swiper-wrapper">
 
-            <div class="hero-overlay"></div>
+            <!-- Slide 01 -->
 
-            <div class="hero-content">
+            <div class="swiper-slide hero-slide slide-1">
 
-                <span class="hero-subtitle">
-                    Trending Food Collection
-                </span>
+                <div class="hero-overlay"></div>
 
-                <h1>
-                    Explore Trending,
-                    Global & Healthy Food
-                </h1>
+                <img
+                src="H21.png"
+                class="hero-bg"
+                alt=""
+                >
 
-                <p>
-                    Discover world cuisines, healthy recipes,
-                    street food and trending dishes.
-                </p>
+                <div class="hero-content">
 
-                <div class="hero-buttons">
+                    <span class="hero-subtitle">
+                        Trending Food Collection
+                    </span>
 
-                    <a href="#" class="btn-primary">
+                    <h1>
+                        Explore Trending,
+                        Global & Healthy Food
+                    </h1>
+
+                    <p>
+                        Discover viral foods, world cuisines,
+                        healthy recipes and street food stories.
+                    </p>
+
+                    <a href="#" class="hero-btn">
                         Explore Recipes
-                    </a>
-
-                    <a href="#" class="btn-outline">
-                        Learn More
                     </a>
 
                 </div>
 
             </div>
 
-        </div>
+            <!-- Slide 02 -->
 
-        <!-- Slide 2 -->
+            <div class="swiper-slide hero-slide slide-2">
 
-        <div class="hero-slide">
+                <div class="hero-overlay"></div>
 
-            <div class="hero-bg">
-                <img src="H2.jpg" alt="">
-            </div>
+                <img
+                src="H22.png"
+                class="hero-bg"
+                alt=""
+                >
 
-            <div class="hero-overlay"></div>
+                <div class="hero-content">
 
-            <div class="hero-content">
+                    <span class="hero-subtitle">
+                        World Cuisine
+                    </span>
 
-                <span class="hero-subtitle">
-                    World Cuisine
-                </span>
+                    <h1>
+                        Discover Authentic
+                        Global Flavors
+                    </h1>
 
-                <h1>
-                    Taste Authentic Flavors
-                    From Every Country
-                </h1>
+                    <p>
+                        Explore food traditions from every corner
+                        of the world.
+                    </p>
 
-                <p>
-                    Explore global recipes and culinary stories.
-                </p>
-
-                <div class="hero-buttons">
-
-                    <a href="#" class="btn-primary">
+                    <a href="#" class="hero-btn">
                         View Cuisines
                     </a>
 
@@ -129,21 +138,238 @@
 
             </div>
 
+            <!-- Slide 03 -->
+
+            <div class="swiper-slide hero-slide slide-3">
+
+                <div class="hero-overlay"></div>
+
+                <img
+                src="H23.png"
+                class="hero-bg"
+                alt=""
+                >
+
+                <div class="hero-content">
+
+                    <span class="hero-subtitle">
+                        Healthy Food
+                    </span>
+
+                    <h1>
+                        Fresh Recipes For
+                        Better Living
+                    </h1>
+
+                    <p>
+                        Healthy meals packed with nutrition
+                        and flavor.
+                    </p>
+
+                    <a href="#" class="hero-btn">
+                        Healthy Guide
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Slide 04 -->
+
+            <div class="swiper-slide hero-slide slide-4">
+
+                <div class="hero-overlay"></div>
+
+                <img
+                src="H24.png"
+                class="hero-bg"
+                alt=""
+                >
+
+                <div class="hero-content">
+
+                    <span class="hero-subtitle">
+                        Street Food
+                    </span>
+
+                    <h1>
+                        Taste The Best
+                        Street Food Stories
+                    </h1>
+
+                    <p>
+                        Explore iconic street food from
+                        around the globe.
+                    </p>
+
+                    <a href="#" class="hero-btn">
+                        Explore Street Food
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Slide 05 -->
+
+            <div class="swiper-slide hero-slide slide-5">
+
+                <div class="hero-overlay"></div>
+
+                <img
+                src="H25.png"
+                class="hero-bg"
+                alt=""
+                >
+
+                <div class="hero-content">
+
+                    <span class="hero-subtitle">
+                        Global Recipes
+                    </span>
+
+                    <h1>
+                        Delicious Recipes
+                        Made Easy
+                    </h1>
+
+                    <p>
+                        Step-by-step recipes anyone can cook.
+                    </p>
+
+                    <a href="#" class="hero-btn">
+                        Browse Recipes
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Slide 06 -->
+
+            <div class="swiper-slide hero-slide slide-6">
+
+                <div class="hero-overlay"></div>
+
+                <img
+                src="H26.png"
+                class="hero-bg"
+                alt=""
+                >
+
+                <div class="hero-content">
+
+                    <span class="hero-subtitle">
+                        Desserts
+                    </span>
+
+                    <h1>
+                        Sweet Creations
+                        Worth Sharing
+                    </h1>
+
+                    <p>
+                        Cakes, brownies, chocolates
+                        and dessert inspiration.
+                    </p>
+
+                    <a href="#" class="hero-btn">
+                        View Desserts
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Slide 07 -->
+
+            <div class="swiper-slide hero-slide slide-7">
+
+                <div class="hero-overlay"></div>
+
+                <img
+                src="H27.png"
+                class="hero-bg"
+                alt=""
+                >
+
+                <div class="hero-content">
+
+                    <span class="hero-subtitle">
+                        Food Blog
+                    </span>
+
+                    <h1>
+                        Stories Behind
+                        Every Delicious Dish
+                    </h1>
+
+                    <p>
+                        Food facts, trends and culinary culture.
+                    </p>
+
+                    <a href="#" class="hero-btn">
+                        Read Articles
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Slide 08 -->
+
+            <div class="swiper-slide hero-slide slide-8">
+
+                <div class="hero-overlay"></div>
+
+                <img
+                src="H28.png"
+                class="hero-bg"
+                alt=""
+                >
+
+                <div class="hero-content">
+
+                    <span class="hero-subtitle">
+                        Food Community
+                    </span>
+
+                    <h1>
+                        Join Thousands
+                        Of Food Lovers
+                    </h1>
+
+                    <p>
+                        Discover, learn and share
+                        amazing food experiences.
+                    </p>
+
+                    <a href="#" class="hero-btn">
+                        Join Community
+                    </a>
+
+                </div>
+
+            </div>
+
         </div>
 
-        <!-- Controls -->
+        <!-- Navigation -->
 
-        <button class="hero-prev">
-            &#10094;
-        </button>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
 
-        <button class="hero-next">
-            &#10095;
-        </button>
+        <!-- Pagination -->
+
+        <div class="swiper-pagination"></div>
 
     </div>
 
 </section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
 
 
 
@@ -615,169 +841,158 @@
                     
                     </section>
                     
-                    <section class="">
-                        <h2 class="section-title">
-                            Latest From FryCuisine
-                        </h2>
-                        <div class="masonry-grid">
+                  <div class="masonry-grid">
 
-                        <!-- ===== CARD 1 – EXTRA LARGE (450px) ===== -->
-                        <article class="card">
-                            <div class="img-wrapper">
-                                <img src="https://picsum.photos/seed/food1/400/450" alt="Large Quinoa Bowl" loading="lazy" />
-                            </div>
-                            <div class="card-content">
-                                <span class="category">Breakfast</span>
-                                <h3 class="card-title">Summer Harvest Quinoa Bowl</h3>
-                                <p class="card-desc">Fresh roasted vegetables, creamy avocado, and a tangy lemon-tahini dressing.</p>
-                                <a href="#" class="read-more">Read Recipe →</a>
-                            </div>
-                        </article>
-                    
-                        <!-- ===== CARD 2 – MEDIUM ===== -->
-                        <article class="card">
-                            <div class="img-wrapper">
-                                <img src="https://picsum.photos/seed/food2/400/250" alt="Chocolate Cake" loading="lazy" />
-                            </div>
-                            <div class="card-content">
-                                <span class="category">Dessert</span>
-                                <h3 class="card-title">Decadent Dark Chocolate Cake</h3>
-                                <p class="card-desc">Rich, moist layers topped with a silky ganache and fresh raspberries.</p>
-                                <a href="#" class="read-more">Read Recipe →</a>
-                            </div>
-                        </article>
-                    
-                        <!-- ===== CARD 3 – SMALL ===== -->
-                        <article class="card">
-                            <div class="img-wrapper">
-                                <img src="https://picsum.photos/seed/food3/400/180" alt="Oatmeal" loading="lazy" />
-                            </div>
-                            <div class="card-content">
-                                <span class="category">Healthy</span>
-                                <h3 class="card-title">Warm Spiced Oatmeal</h3>
-                                <p class="card-desc">Creamy oats with cinnamon, brown sugar, and toasted pecans.</p>
-                                <a href="#" class="read-more">Read Recipe →</a>
-                            </div>
-                        </article>
-                    
-                        <!-- ===== CARD 4 – EXTRA TALL ===== -->
-                        <article class="card">
-                            <div class="img-wrapper">
-                                <img src="https://picsum.photos/seed/food4/400/450" alt="Ramen" loading="lazy" />
-                            </div>
-                            <div class="card-content">
-                                <span class="category">Dinner</span>
-                                <h3 class="card-title">Spicy Miso Ramen</h3>
-                                <p class="card-desc">Rich broth, chashu pork, soft-boiled egg, and a kick of chili oil.</p>
-                                <a href="#" class="read-more">Read Recipe →</a>
-                            </div>
-                        </article>
-                    
-                        <!-- ===== CARD 5 – MEDIUM ===== -->
-                        <article class="card">
-                            <div class="img-wrapper">
-                                <img src="https://picsum.photos/seed/food5/400/250" alt="Caesar Salad" loading="lazy" />
-                            </div>
-                            <div class="card-content">
-                                <span class="category">Lunch</span>
-                                <h3 class="card-title">Classic Caesar Salad</h3>
-                                <p class="card-desc">Crisp romaine, parmesan shavings, crunchy croutons, and creamy dressing.</p>
-                                <a href="#" class="read-more">Read Recipe →</a>
-                            </div>
-                        </article>
-                    
-                        <!-- ===== CARD 6 – LARGE ===== -->
-                        <article class="card">
-                            <div class="img-wrapper">
-                                <img src="https://picsum.photos/seed/food6/400/350" alt="Pizza" loading="lazy" />
-                            </div>
-                            <div class="card-content">
-                                <span class="category">Dinner</span>
-                                <h3 class="card-title">Wood-Fired Margherita</h3>
-                                <p class="card-desc">San Marzano tomatoes, fresh mozzarella, basil, and a drizzle of olive oil.</p>
-                                <a href="#" class="read-more">Read Recipe →</a>
-                            </div>
-                        </article>
-                    
-                        <!-- ===== CARD 7 – MEDIUM ===== -->
-                        <article class="card">
-                            <div class="img-wrapper">
-                                <img src="https://picsum.photos/seed/food7/400/250" alt="Tacos" loading="lazy" />
-                            </div>
-                            <div class="card-content">
-                                <span class="category">Dinner</span>
-                                <h3 class="card-title">Street-Style Baja Tacos</h3>
-                                <p class="card-desc">Grilled fish, cabbage slaw, crema, and fresh lime.</p>
-                                <a href="#" class="read-more">Read Recipe →</a>
-                            </div>
-                        </article>
-                    
-                        <!-- ===== CARD 8 – EXTRA TALL ===== -->
-                        <article class="card">
-                            <div class="img-wrapper">
-                                <img src="https://picsum.photos/seed/food8/400/450" alt="Croissants" loading="lazy" />
-                            </div>
-                            <div class="card-content">
-                                <span class="category">Bakery</span>
-                                <h3 class="card-title">Flaky Butter Croissants</h3>
-                                <p class="card-desc">Golden, crisp, and perfectly layered with European butter.</p>
-                                <a href="#" class="read-more">Read Recipe →</a>
-                            </div>
-                        </article>
-                    
-                        <!-- ===== CARD 9 – SMALL ===== -->
-                        <article class="card">
-                            <div class="img-wrapper">
-                                <img src="https://picsum.photos/seed/food9/400/180" alt="Toast" loading="lazy" />
-                            </div>
-                            <div class="card-content">
-                                <span class="category">Breakfast</span>
-                                <h3 class="card-title">Avocado &amp; Poached Egg Toast</h3>
-                                <p class="card-desc">Sourdough, smashed avocado, and perfectly poached egg.</p>
-                                <a href="#" class="read-more">Read Recipe →</a>
-                            </div>
-                        </article>
-                    
-                        <!-- ===== CARD 10 – MEDIUM ===== -->
-                        <article class="card">
-                            <div class="img-wrapper">
-                                <img src="https://picsum.photos/seed/food10/400/250" alt="Waffles" loading="lazy" />
-                            </div>
-                            <div class="card-content">
-                                <span class="category">Brunch</span>
-                                <h3 class="card-title">Belgian Waffles with Berries</h3>
-                                <p class="card-desc">Fluffy, golden waffles topped with mixed berries and maple syrup.</p>
-                                <a href="#" class="read-more">Read Recipe →</a>
-                            </div>
-                        </article>
-                    
-                        <!-- ===== CARD 11 – LARGE ===== -->
-                        <article class="card">
-                            <div class="img-wrapper">
-                                <img src="https://picsum.photos/seed/food11/400/350" alt="Steak" loading="lazy" />
-                            </div>
-                            <div class="card-content">
-                                <span class="category">Dinner</span>
-                                <h3 class="card-title">Seared Ribeye with Herb Butter</h3>
-                                <p class="card-desc">Perfectly seared steak finished with garlic-herb butter.</p>
-                                <a href="#" class="read-more">Read Recipe →</a>
-                            </div>
-                        </article>
-                    
-                        <!-- ===== CARD 12 – SMALL ===== -->
-                        <article class="card">
-                            <div class="img-wrapper">
-                                <img src="https://picsum.photos/seed/food12/400/180" alt="Smoothie" loading="lazy" />
-                            </div>
-                            <div class="card-content">
-                                <span class="category">Drinks</span>
-                                <h3 class="card-title">Green Detox Smoothie</h3>
-                                <p class="card-desc">Kale, spinach, pineapple, and ginger blended to perfection.</p>
-                                <a href="#" class="read-more">Read Recipe →</a>
-                            </div>
-                        </article>
-                    </div>
-                    </section>
+    <!-- FEATURED -->
+    <article class="card featured">
+        <div class="img-wrapper">
+            <img src="images/tacos.jpg" alt="">
+        </div>
+        <div class="card-content">
+            <span class="category">Trending Food</span>
+            <h3 class="card-title">Mexican Tacos Street Food</h3>
+            <p class="card-desc">
+                Spicy fillings wrapped in soft tortillas for perfect flavor.
+            </p>
+        </div>
+    </article>
+
+    <!-- TOP RIGHT -->
+    <article class="card small">
+        <div class="img-wrapper">
+            <img src="images/salad.jpg" alt="">
+        </div>
+        <div class="card-content">
+            <span class="category">Food Facts</span>
+            <h3 class="card-title">Power of Avocado Salad</h3>
+        </div>
+    </article>
+
+    <article class="card medium">
+        <div class="img-wrapper">
+            <img src="images/samosa.jpg" alt="">
+        </div>
+        <div class="card-content">
+            <span class="category">Street Food</span>
+            <h3 class="card-title">Spicy Samosa Chaat</h3>
+        </div>
+    </article>
+
+    <!-- ROW 2 -->
+    <article class="card small">
+        <div class="img-wrapper">
+            <img src="images/lava-cake.jpg" alt="">
+        </div>
+        <div class="card-content">
+            <span class="category">Dessert</span>
+            <h3 class="card-title">Chocolate Lava Cake</h3>
+        </div>
+    </article>
+
+    <article class="card small">
+        <div class="img-wrapper">
+            <img src="images/alfredo.jpg" alt="">
+        </div>
+        <div class="card-content">
+            <span class="category">Trending Food</span>
+            <h3 class="card-title">Creamy Pasta Alfredo</h3>
+        </div>
+    </article>
+
+    <article class="card tall">
+        <div class="img-wrapper">
+            <img src="images/momos.jpg" alt="">
+        </div>
+        <div class="card-content">
+            <span class="category">Street Food</span>
+            <h3 class="card-title">Steamed Veg Momos</h3>
+        </div>
+    </article>
+
+    <!-- ROW 3 -->
+    <article class="card medium">
+        <div class="img-wrapper">
+            <img src="images/burger.jpg" alt="">
+        </div>
+        <div class="card-content">
+            <span class="category">Trending Food</span>
+            <h3 class="card-title">Cheese Burst Burger</h3>
+        </div>
+    </article>
+
+    <article class="card medium">
+        <div class="img-wrapper">
+            <img src="images/ramen.jpg" alt="">
+        </div>
+        <div class="card-content">
+            <span class="category">Famous Food</span>
+            <h3 class="card-title">Spicy Chicken Ramen</h3>
+        </div>
+    </article>
+
+    <!-- ROW 4 -->
+    <article class="card medium">
+        <div class="img-wrapper">
+            <img src="images/oats.jpg" alt="">
+        </div>
+        <div class="card-content">
+            <span class="category">Diet Tips</span>
+            <h3 class="card-title">Oats & Fruit Breakfast Bowl</h3>
+        </div>
+    </article>
+
+    <article class="card medium">
+        <div class="img-wrapper">
+            <img src="images/sprouts.jpg" alt="">
+        </div>
+        <div class="card-content">
+            <span class="category">Diet Tips</span>
+            <h3 class="card-title">Sprouts Salad Bowl</h3>
+        </div>
+    </article>
+
+    <article class="card medium">
+        <div class="img-wrapper">
+            <img src="images/mushroom-pasta.jpg" alt="">
+        </div>
+        <div class="card-content">
+            <span class="category">Trending Food</span>
+            <h3 class="card-title">Creamy Mushroom Pasta</h3>
+        </div>
+    </article>
+
+    <!-- LAST ROW -->
+    <article class="card medium">
+        <div class="img-wrapper">
+            <img src="images/sandwich.jpg" alt="">
+        </div>
+        <div class="card-content">
+            <span class="category">Trending Food</span>
+            <h3 class="card-title">Loaded Veggie Sandwich</h3>
+        </div>
+    </article>
+
+    <article class="card medium">
+        <div class="img-wrapper">
+            <img src="images/brownie.jpg" alt="">
+        </div>
+        <div class="card-content">
+            <span class="category">Food Facts</span>
+            <h3 class="card-title">Dark Chocolate Brownie</h3>
+        </div>
+    </article>
+
+    <article class="card medium">
+        <div class="img-wrapper">
+            <img src="images/biryani.jpg" alt="">
+        </div>
+        <div class="card-content">
+            <span class="category">Famous Food</span>
+            <h3 class="card-title">Hyderabadi Biryani</h3>
+        </div>
+    </article>
+
+</div>
                         <section class="why-frycuisine">
 
                             <div class="container">
@@ -999,7 +1214,34 @@
                         
                         </script>
                        
-                          
+           <script>
+
+const heroSwiper = new Swiper('.heroSwiper', {
+
+    loop:true,
+
+    speed:1500,
+
+    effect:'fade',
+
+    autoplay:{
+        delay:5000,
+        disableOnInteraction:false,
+    },
+
+    pagination:{
+        el:'.swiper-pagination',
+        clickable:true,
+    },
+
+    navigation:{
+        nextEl:'.swiper-button-next',
+        prevEl:'.swiper-button-prev',
+    }
+
+});
+
+</script>               
                         
 </body>
 </html>
